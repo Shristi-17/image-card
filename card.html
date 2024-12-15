@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>image card</title>
+    <style>
+        #card{
+            position: relative;
+            top: 25vh;
+        }
+        
+        .box{
+            border:hidden;
+            padding: 10px;
+            margin: auto;
+            height: 350px;
+            width: 250px;
+            background-color: rgb(22, 104, 51);
+            color: azure;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            border-radius: 15px;
+            position: absolute;
+            font-size: 11px;
+        }
+
+        .img{
+            padding: 0;
+            margin: 0;
+            position: relative;
+            height: 170px;
+            width:250px;
+            border-radius: 15px;
+        }
+
+        div button{
+            padding: 2px;
+            /* margin: 10px; */
+            border-radius: 15px;
+            background-color:white;
+            border: solid green;
+            border-width: 1px;
+            color: green;
+            width: 40px;
+            font-size: 7px;
+            position: relative;
+            top:10px;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            margin-left: 8px;
+            
+        }
+
+        .read{
+            padding: 2px;
+            /* margin: 10px; */
+            border-radius: 15px;
+            background-color:white;
+            border: solid green;
+            border-width: 1px;
+            color: green;
+            width: 70px;
+            height: 25px;
+            font-size: 7px;
+            position: relative;
+            top:10px;
+            left:85px;
+        }
+
+        h1{
+            margin-left: 8px;
+            margin-right: 8px;
+        }
+
+        p{
+            margin-top: -7px;
+            margin-left: 8px;
+            margin-right: 8px;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <div class="box" id="card">
+        <img class="img" src="lake.jpg" alt="a lake" >
+        <button>Nature</button>
+        <button>Lake</button>
+        <h1>Lago di braies</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam possimus quidem nisi molestias incidunt aspernatur, in fugit deleniti?</p>
+        <button class="read">Read More</button>
+    </div>
+    
+</body>
+</html>
